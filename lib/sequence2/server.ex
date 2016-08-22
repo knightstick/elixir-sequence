@@ -1,5 +1,8 @@
 defmodule Sequence2.Server do
   use GenServer
+
+  @vsn "0"
+
   #####
   # External API
 
